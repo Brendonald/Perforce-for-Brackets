@@ -1,0 +1,40 @@
+#perforce-checkout .modal-header { 
+    background: #222;
+    padding: 10px 20px;
+    color: #EEEEEE;
+    font-size: 24px; 
+}
+
+#perforce-checkout .modal-body { 
+    padding: 20px 20px 0px 20px;  
+}
+
+#perforce-checkout .modal-body .section {
+    padding-bottom: 10px;  
+}
+
+#perforce-checkout .modal-body .section input {
+    vertical-align: middle;
+    margin-right: 10px; 
+    display: inline-block;
+}
+
+#perforce-checkout .modal-body .pick-changelist .subsection {
+    opacity: 0.3;
+    margin-left: 10px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+#perforce-checkout .modal-body .pick-changelist.enabled .subsection { 
+    opacity: 1;    
+}
+
+#perforce-checkout-failure .modal-body .detail {
+    margin-top: 10px;
+}
+
+#perforce-connection-failure .modal-body .detail {
+    margin-top: 10px;
+}

@@ -1,0 +1,29 @@
+<div id="perforce-checkout" class="modal">
+    
+    <div class="modal-header">
+        <h1 class="dialog-title">Perforce Checkout</h1>
+    </div>
+
+    <div class="modal-body">
+        <div class="section">
+            <input class="option" type=radio value="default-checkout" checked onchange="changeAction(this);" />Check out to workspace's default changelist
+        </div>
+
+        <div class="section pick-changelist">
+            <input class="option" type=radio value="changelist-checkout"  onchange="changeAction(this);"/>Select changelist
+            <div class="subsection">
+                <div id="changelists"></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <input class="option" type=radio value="no-checkout"  onchange="changeAction(this);"/>Do not check out
+        </div>
+    </div>
+    
+    <div class="modal-footer">
+        <button class="dialog-button btn " data-button-id="cancel">Cancel</button>
+        <button class="dialog-button btn primary" data-button-id="ok">Check Out</button>  
+    </div>
+    
+</div>      

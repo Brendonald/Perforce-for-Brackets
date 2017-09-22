@@ -1,0 +1,12 @@
+{
+    "name": "Perforce for Brackets",
+    "title": "Perforce for Brackets",
+    "description": "Enables Perforce source control integration",
+    "homepage": "https://github.com/JoshGalvin/brackets-perforce",
+    "version": "1.0.2",
+    "author": "Brendan Benoit <brendan.benoit@gmail.com>, Joshua Galvin <joshuagalvin@gmail.com>",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.29.0"
+    }
+}
